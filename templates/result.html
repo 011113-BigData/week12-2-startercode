@@ -1,0 +1,69 @@
+<html lang="en">
+  <head>
+    <title>Heart failure prediction: output result</title>
+  </head>
+  <body>
+      <center>
+      <h1>Heart failure prediction: output result</h1>
+        <table border="1">
+            <tr>
+                <td>age</td>
+                <td>{{age}}</td>
+            </tr>
+            <tr>
+                <td>anaemia</td>
+                <td>{{anaemia}} | 1: yes, 0: no</td>
+            </tr>
+            <tr>
+                <td>creatinine_phosphokinase</td>
+                <td>{{creatinine_phosphokinase}}</td>
+            </tr>
+            <tr>
+                <td>diabetes</td>
+                <td>{{diabetes}} | 1: yes, 0: no</td>
+            </tr>
+            <tr>
+                <td>ejection_fraction</td>
+                <td>{{ejection_fraction}}</td>
+            </tr>
+            <tr>
+                <td>high_blood_pressure</td>
+                <td>{{high_blood_pressure}} | 1: yes, 0: no</td>
+            </tr>
+            <tr>
+                <td>platelets</td>
+                <td>{{platelets}}</td>
+            </tr>
+            <tr>
+                <td>serum_creatinine</td>
+                <td>{{serum_creatinine}}</td>
+            </tr>
+            <tr>
+                <td>serum_sodium</td>
+                <td>{{serum_sodium}}</td>
+            </tr>
+            <tr>
+                <td>sex</td>
+                <td>{{sex}} | 1: male, 0: female</td>
+            </tr>
+            <tr>
+                <td>smoking</td>
+                <td>{{smoking}} | 1: yes, 0: no</td>
+            </tr>
+            <tr>
+                <td>time</td>
+                <td>{{time}}</td>
+            </tr>
+            <tr>
+                <td>Predicted Output</td>
+                <td>{{output}}</td>
+            </tr>
+            <tr>
+                <td colspan=2><center><a href="{{url_for('index')}}" >Predict Another Data?</a></center></td>
+            </tr>
+          </table>
+          <br/><br/>
+          <img src="https://upload.wikimedia.org/wikipedia/en/8/8d/Sejong_University.png"/>
+      </center>
+  </body>      
+</html>

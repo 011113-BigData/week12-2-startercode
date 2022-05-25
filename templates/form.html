@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <title>Heart failure prediction: input form</title>
+  </head>
+  <body>
+      <center>
+      <h1>Heart failure prediction: input form</h1>
+      <form method="post" action="/result">
+        <table border="1">
+            <tr>
+                <td>age</td>
+                <td><input type="text" name="age" value="50"/></td>
+            </tr>
+            <tr>
+                <td>anaemia</td>
+                <td><input type="text" name="anaemia" value="0"/> | 1: yes, 0: no</td>
+            </tr>
+            <tr>
+                <td>creatinine_phosphokinase</td>
+                <td><input type="text" name="creatinine_phosphokinase" value="196"/></td>
+            </tr>
+            <tr>
+                <td>diabetes</td>
+                <td><input type="text" name="diabetes" value="0"/> | 1: yes, 0: no</td>
+            </tr>
+            <tr>
+                <td>ejection_fraction</td>
+                <td><input type="text" name="ejection_fraction" value="45"/></td>
+            </tr>
+            <tr>
+                <td>high_blood_pressure</td>
+                <td><input type="text" name="high_blood_pressure" value="0"/> | 1: yes, 0: no</td>
+            </tr>
+            <tr>
+                <td>platelets</td>
+                <td><input type="text" name="platelets" value="395000"/></td>
+            </tr>
+            <tr>
+                <td>serum_creatinine</td>
+                <td><input type="text" name="serum_creatinine" value="1.6"/></td>
+            </tr>
+            <tr>
+                <td>serum_sodium</td>
+                <td><input type="text" name="serum_sodium" value="136"/></td>
+            </tr>
+            <tr>
+                <td>sex</td>
+                <td><input type="text" name="sex" value="1"/> | 1: male, 0: female</td>
+            </tr>
+            <tr>
+                <td>smoking</td>
+                <td><input type="text" name="smoking" value="1"/> | 1: yes, 0: no</td>
+            </tr>
+            <tr>
+                <td>time</td>
+                <td><input type="text" name="time" value="285"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit" name="predict">PREDICT</button></td>
+            </tr>
+          </table>
+      </form><br/>
+          <img src="https://upload.wikimedia.org/wikipedia/en/8/8d/Sejong_University.png"/>
+      </center>
+  </body>      
+</html>
